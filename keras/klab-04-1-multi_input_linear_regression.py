@@ -24,3 +24,4 @@ model.fit(x_data, y_data, epochs=1000)
 
 y_predict = model.predict(np.array([[95., 100., 80]]))
 print(y_predict)
+
